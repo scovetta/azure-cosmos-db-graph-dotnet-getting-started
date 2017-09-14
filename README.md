@@ -1,5 +1,5 @@
 # Getting started with Azure Cosmos DB: Graph API
-[Azure Cosmos DB](http://cosmosdb.com) is a globally distributed, multi-model database for mission critical applications. Azure Cosmos DB provides the [Graph API](https://docs.microsoft.com/azure/cosmosdb/graph-introduction.md) for applications that need to model, query, and traverse large graphs efficiently using the [Gremlin standard](http://tinkerpop.apache.org/docs/current/reference/#graph-traversal-steps). Azure Cosmos DB's graph API is currently in public preview.
+[Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/) is a globally distributed, multi-model database for mission critical applications. Azure Cosmos DB provides the [Graph API](https://docs.microsoft.com/azure/cosmos-db/graph-introduction) for applications that need to model, query, and traverse large graphs efficiently using the [Gremlin standard](http://tinkerpop.apache.org/docs/current/reference/#graph-traversal-steps). Azure Cosmos DB's graph API is currently in public preview.
 
 ## About this sample: CRUD and Query using Gremlin in .NET
 
@@ -12,7 +12,7 @@ This sample shows how to setup your development environment with Azure Cosmos DB
 * Update the settings to Azure Cosmos DB account endpoint and keys in `App.config`, i.e. `<add key="Endpoint" value="https://FILLME.documents.azure.com:443/"/>` and `<add key="AuthKey" value="FILLME"/>`
 * Run the application
 
-We provide a walkthrough of the sample at [Get started with Azure Cosmos DB's Graph API using .NET](https://docs.microsoft.com/azure/cosmosdb/create-graph-dotnet.md)
+We provide a walkthrough of the sample at [Get started with Azure Cosmos DB's Graph API using .NET](https://docs.microsoft.com/azure/cosmos-db/create-graph-dotnet)
 
 ```cs
 // Azure Cosmos DB supports the Gremlin API for working with Graphs. Gremlin is a functional programming language composed of steps.
@@ -61,7 +61,7 @@ foreach (KeyValuePair<string, string> gremlinQuery in gremlinQueries)
 ```
 
 ## Graph database support overview
-[Azure Cosmos DB](http://cosmosdb.com) provides you with a fully-managed graph database service with global distribution, elastic scaling of storage and throughput, automatic indexing and query, tunable consistency levels, and supports the Gremlin standard. It also provides the ability to use multiple models like document and graph over the same data. For example, you can use a document collection to store graph data side by side with documents, and use both SQL queries over JSON and Gremlin queries to query the collection.
+[Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/) provides you with a fully-managed graph database service with global distribution, elastic scaling of storage and throughput, automatic indexing and query, tunable consistency levels, and supports the Gremlin standard. It also provides the ability to use multiple models like document and graph over the same data. For example, you can use a document collection to store graph data side by side with documents, and use both SQL queries over JSON and Gremlin queries to query the collection.
 
 
 
